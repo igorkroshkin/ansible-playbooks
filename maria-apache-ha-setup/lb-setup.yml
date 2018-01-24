@@ -1,5 +1,5 @@
 ---
-- hosts: ha
+- hosts: frontends
   name: Install HAProxy load balancer and start it
   become: yes
   tasks:
