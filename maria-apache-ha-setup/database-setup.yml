@@ -1,5 +1,5 @@
 ---
-- hosts: appdbs
+- hosts: db
   name: Install MariaDB database server and start it
   become: yes
   tasks:

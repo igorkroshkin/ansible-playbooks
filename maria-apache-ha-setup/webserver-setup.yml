@@ -1,5 +1,5 @@
 ---
-- hosts: apps
+- hosts: web
   name: Install the web server and start it
   become: yes
   vars:
